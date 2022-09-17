@@ -16,7 +16,7 @@ def mostrarMenuPrincipal():
     print('[3] - Crear Categoria')
     print('[4] - Eliminar Receta')
     print('[5] - Eliminar Categoria')
-    print('[5] - Finalizar programa')
+    print('[6] - Finalizar programa')
 
 def obtiene_option_menu_principal():
     opcion = input('Ingrese una opcion: ')
@@ -88,3 +88,5 @@ while option_principal != 6:
 
         print(f"La {categoria} ha sido eliminada")
 
+    if option_principal == '6':
+        break
